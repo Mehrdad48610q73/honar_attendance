@@ -1,0 +1,84 @@
+:root {
+  --color-primary: #6366F1;
+  --color-primary-dark: #4F46E5;
+  --color-primary-soft: #EEF2FF;
+  --color-secondary: #06B6D4;
+  --color-success: #10B981;
+  --color-success-soft: #D1FAE5;
+  --color-danger: #EF4444;
+  --color-danger-soft: #FEE2E2;
+  --color-warning: #F59E0B;
+  --color-warning-soft: #FEF3C7;
+  --color-info: #3B82F6;
+  --color-info-soft: #DBEAFE;
+  --bg-app: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-surface-2: #F1F5F9;
+  --bg-header: rgba(255, 255, 255, 0.75);
+  --bg-nav: rgba(255, 255, 255, 0.85);
+  --text-primary: #1E293B;
+  --text-secondary: #64748B;
+  --text-muted: #94A3B8;
+  --text-on-primary: #FFFFFF;
+  --border-color: #E2E8F0;
+  --border-soft: #F1F5F9;
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 2px 6px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 6px 16px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 32px rgba(15, 23, 42, 0.12);
+  --shadow-primary: 0 8px 20px rgba(99, 102, 241, 0.25);
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --font-family: 'Vazirmatn', system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 15px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 34px;
+  --header-height: 64px;
+  --nav-height: 64px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 150ms var(--ease-out);
+  --transition-base: 250ms var(--ease-out);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #818CF8;
+    --color-primary-dark: #6366F1;
+    --color-primary-soft: #312E81;
+    --bg-app: #0F172A;
+    --bg-surface: #1E293B;
+    --bg-surface-2: #334155;
+    --bg-header: rgba(15, 23, 42, 0.75);
+    --bg-nav: rgba(15, 23, 42, 0.85);
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    --border-color: #334155;
+    --border-soft: #1E293B;
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
+    --color-success-soft: #064E3B;
+    --color-danger-soft: #7F1D1D;
+    --color-warning-soft: #78350F;
+    --color-info-soft: #1E3A8A;
+  }
+}
