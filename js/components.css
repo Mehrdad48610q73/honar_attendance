@@ -1,0 +1,102 @@
+.card { 
+  background: var(--bg-surface); 
+  border-radius: var(--radius-lg); 
+  padding: var(--space-5); 
+  box-shadow: var(--shadow-sm); 
+  border: 1px solid var(--border-soft); 
+  transition: transform var(--transition-fast); 
+}
+
+.card:active { 
+  transform: scale(0.985); 
+}
+
+.btn { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: var(--space-2); 
+  padding: 12px 20px; 
+  border-radius: var(--radius-md); 
+  font-weight: 500; 
+  font-size: var(--font-size-base); 
+  position: relative; 
+  overflow: hidden; 
+  transition: transform 150ms, background 150ms; 
+  user-select: none; 
+}
+
+.btn:active { 
+  transform: scale(0.97); 
+}
+
+.btn-primary { 
+  background: var(--color-primary); 
+  color: white; 
+  box-shadow: var(--shadow-primary); 
+}
+
+.btn-ghost { 
+  background: var(--bg-surface-2); 
+  color: var(--text-primary); 
+}
+
+.btn-block { 
+  width: 100%; 
+}
+
+.btn-sm { 
+  padding: 8px 14px; 
+  font-size: var(--font-size-sm); 
+  border-radius: var(--radius-sm); 
+}
+
+.icon-btn { 
+  width: 42px; 
+  height: 42px; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: var(--radius-md); 
+  color: var(--text-secondary); 
+  transition: background 150ms; 
+}
+
+.icon-btn:active { 
+  transform: scale(0.92); 
+}
+
+.chip { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: var(--space-1); 
+  padding: 4px 12px; 
+  border-radius: var(--radius-full); 
+  font-size: var(--font-size-xs); 
+  font-weight: 500; 
+  background: var(--bg-surface-2); 
+  color: var(--text-secondary); 
+}
+
+.chip-success { 
+  background: var(--color-success-soft); 
+  color: var(--color-success); 
+}
+
+.chip-danger  { 
+  background: var(--color-danger-soft);  
+  color: var(--color-danger); 
+}
+
+.avatar { 
+  width: 44px; 
+  height: 44px; 
+  border-radius: 50%; 
+  background: var(--color-primary-soft); 
+  color: var(--color-primary); 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-weight: 700; 
+  font-size: 16px; 
+}
